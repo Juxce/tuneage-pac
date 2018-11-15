@@ -21,7 +21,7 @@ steps:
     testRunner: VSTest
     testResultsFiles: '**/*.trx'
  
-- script: dotnet publish 'juxce.tuneage.pac.csproj' --configuration $(buildConfiguration) --output '$(Build.ArtifactStagingDirectory)/app'
+- script: dotnet publish 'juxce.tuneage.pac\juxce.tuneage.pac.csproj' --configuration $(buildConfiguration) --output '$(Build.ArtifactStagingDirectory)/app'
   displayName: 'Package function app'
  
 - task: PublishBuildArtifacts@1
