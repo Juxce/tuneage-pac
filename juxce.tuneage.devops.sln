@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "juxce.tuneage.pac", "FunctionApp1\juxce.tuneage.pac.csproj", "{DE54976D-A305-4D1E-8360-0F2D1B092DEF}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "juxce.tuneage.pac.canary.tests", "CanaryTest\juxce.tuneage.pac.canary.tests.csproj", "{8AD97DDE-D106-4A67-8611-689E9D41A573}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Postman", "Postman\Postman.csproj", "{D415E126-C2F4-42B7-A0B3-F0BB76D69380}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "juxce.tuneage.pac", "juxce.tuneage.pac\juxce.tuneage.pac.csproj", "{C3C20AB6-D8DA-4E2A-A91E-73BE2F8940FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DE54976D-A305-4D1E-8360-0F2D1B092DEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DE54976D-A305-4D1E-8360-0F2D1B092DEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DE54976D-A305-4D1E-8360-0F2D1B092DEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DE54976D-A305-4D1E-8360-0F2D1B092DEF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8AD97DDE-D106-4A67-8611-689E9D41A573}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8AD97DDE-D106-4A67-8611-689E9D41A573}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8AD97DDE-D106-4A67-8611-689E9D41A573}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -27,6 +23,10 @@ Global
 		{D415E126-C2F4-42B7-A0B3-F0BB76D69380}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D415E126-C2F4-42B7-A0B3-F0BB76D69380}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D415E126-C2F4-42B7-A0B3-F0BB76D69380}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3C20AB6-D8DA-4E2A-A91E-73BE2F8940FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3C20AB6-D8DA-4E2A-A91E-73BE2F8940FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3C20AB6-D8DA-4E2A-A91E-73BE2F8940FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3C20AB6-D8DA-4E2A-A91E-73BE2F8940FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
