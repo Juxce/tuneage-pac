@@ -1,16 +1,28 @@
-using Xunit;
-
-namespace juxce.tuneage.devops.canary.tests
+//-----------------------------------------------------------------------
+// <copyright file="CanaryTests.cs" company="Juxce">
+//     Copyright (c) Juxce. All rights reserved.
+// </copyright>
+// <author>John Michael Miller</author>
+//-----------------------------------------------------------------------
+namespace Juxce.Tuneage.PaC.Test.Unit
 {
+    using Juxce.Tuneage.PaC.Canary;
+    using Xunit;
+
+    /// <summary>
+    /// Class to test the Canary
+    /// </summary>
     public class CanaryTests
     {
+        /// <summary>
+        /// Verify that the helper class returns Me
+        /// </summary>
         [Fact]
         public void HelpShouldBeMe()
         {
-            var target = CanaryHelper.Help();
+            var target = Canary.CanaryHelper.Help();
 
-            Assert.Equal("Me", target );
-
+            Assert.Equal("Me", target);
         }
     }
 }

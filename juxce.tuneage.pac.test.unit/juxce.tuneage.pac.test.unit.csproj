@@ -16,4 +16,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\juxce.tuneage.pac\juxce.tuneage.pac.csproj" />
+  </ItemGroup>
+
 </Project>
