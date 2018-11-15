@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "juxce.tuneage.pac.canary.tests", "CanaryTest\juxce.tuneage.pac.canary.tests.csproj", "{8AD97DDE-D106-4A67-8611-689E9D41A573}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Postman", "Postman\Postman.csproj", "{D415E126-C2F4-42B7-A0B3-F0BB76D69380}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "juxce.tuneage.pac", "juxce.tuneage.pac\juxce.tuneage.pac.csproj", "{C3C20AB6-D8DA-4E2A-A91E-73BE2F8940FF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "juxce.tuneage.pac.test.unit", "juxce.tuneage.pac.test.unit\juxce.tuneage.pac.test.unit.csproj", "{A218B846-CB1D-482A-B2C4-BE1A7C8E69C0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "juxce.tuneage.test.integration", "juxce.tuneage.pac.test.integration\juxce.tuneage.test.integration.csproj", "{D56BDB61-62EA-47B1-A7D9-B31C41BF5070}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,18 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8AD97DDE-D106-4A67-8611-689E9D41A573}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8AD97DDE-D106-4A67-8611-689E9D41A573}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8AD97DDE-D106-4A67-8611-689E9D41A573}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8AD97DDE-D106-4A67-8611-689E9D41A573}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D415E126-C2F4-42B7-A0B3-F0BB76D69380}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D415E126-C2F4-42B7-A0B3-F0BB76D69380}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D415E126-C2F4-42B7-A0B3-F0BB76D69380}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D415E126-C2F4-42B7-A0B3-F0BB76D69380}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C3C20AB6-D8DA-4E2A-A91E-73BE2F8940FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C3C20AB6-D8DA-4E2A-A91E-73BE2F8940FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3C20AB6-D8DA-4E2A-A91E-73BE2F8940FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3C20AB6-D8DA-4E2A-A91E-73BE2F8940FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A218B846-CB1D-482A-B2C4-BE1A7C8E69C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A218B846-CB1D-482A-B2C4-BE1A7C8E69C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A218B846-CB1D-482A-B2C4-BE1A7C8E69C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A218B846-CB1D-482A-B2C4-BE1A7C8E69C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D56BDB61-62EA-47B1-A7D9-B31C41BF5070}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D56BDB61-62EA-47B1-A7D9-B31C41BF5070}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D56BDB61-62EA-47B1-A7D9-B31C41BF5070}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D56BDB61-62EA-47B1-A7D9-B31C41BF5070}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
