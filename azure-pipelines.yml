@@ -40,4 +40,4 @@ steps:
   displayName: 'Publish end to end test artifact'
   inputs:
     pathtoPublish: '$(Build.ArtifactStagingDirectory)/postman'
-    artifactName: e2etests
+    artifactName: postman
