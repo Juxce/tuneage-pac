@@ -22,12 +22,23 @@ steps:
     testResultsFiles: '**/*.trx'
  
 - script: dotnet publish 'juxce.tuneage.pac\juxce.tuneage.pac.csproj' --configuration $(buildConfiguration) --output '$(Build.ArtifactStagingDirectory)/app'
-  displayName: 'Package function app'
- 
+  displayName: 'publish function app'
+
+# Archive Files
+# Archive files using compression formats such as .7z, .rar, .tar.gz, and .zip.
+- task: ArchiveFiles@2
+  inputs:
+    rootFolderOrFile: '$(Build.ArtifactStagingDirectory)/app' 
+    #includeRootFolder: 
+    archiveType: 'zip' # Options: zip, 7z, tar, wim
+    #tarCompression: 'gz' # Optional. Options: gz, bz2, xz, none
+    archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip' 
+    replaceExistingArchive: true 
+  
 - task: PublishBuildArtifacts@1
   displayName: 'Publishing app artifact'
   inputs:
-    pathtoPublish: '$(Build.ArtifactStagingDirectory)/app'
+    pathtoPublish: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip' 
     artifactName: app
  
 - task: CopyFiles@2
