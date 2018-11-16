@@ -7,7 +7,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "juxce.tuneage.pac", "juxce.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "juxce.tuneage.pac.test.unit", "juxce.tuneage.pac.test.unit\juxce.tuneage.pac.test.unit.csproj", "{A218B846-CB1D-482A-B2C4-BE1A7C8E69C0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "juxce.tuneage.test.integration", "juxce.tuneage.pac.test.integration\juxce.tuneage.test.integration.csproj", "{D56BDB61-62EA-47B1-A7D9-B31C41BF5070}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{091E9C14-4791-4ABC-A8B5-7925F9E545CB}"
+	ProjectSection(SolutionItems) = preProject
+		azure-pipelines.yml = azure-pipelines.yml
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "juxce.tuneage.pac.test.integration", "juxce.tuneage.pac.test.integration", "{05E32039-C4CB-4067-8FA1-0115AD0A89AC}"
+	ProjectSection(SolutionItems) = preProject
+		juxce.tuneage.pac.test.integration\RandD.postman_collection.json = juxce.tuneage.pac.test.integration\RandD.postman_collection.json
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +33,6 @@ Global
 		{A218B846-CB1D-482A-B2C4-BE1A7C8E69C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A218B846-CB1D-482A-B2C4-BE1A7C8E69C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A218B846-CB1D-482A-B2C4-BE1A7C8E69C0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D56BDB61-62EA-47B1-A7D9-B31C41BF5070}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D56BDB61-62EA-47B1-A7D9-B31C41BF5070}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D56BDB61-62EA-47B1-A7D9-B31C41BF5070}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D56BDB61-62EA-47B1-A7D9-B31C41BF5070}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
