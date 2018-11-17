@@ -4,7 +4,7 @@ This repo supports the development and testing of the Tuneage platform. Changes 
 For the purposes pipeline testing, the system being deployed is mocked so that similar bits are deployed by the pipeline. This allows pipeline development to proceed independently of application implementation and isolates the pipeline from application introduced side-effects. 
 
 Build pipelines are implemented in yaml and deployed to other repos by pushing the change into the other repos. 
-  KUnks (Known Unknowns)
+  ### KUnks (Known Unknowns)
   * What's the best way to sync a change in one repo to another repo in git? 
   * Can manual release pipeline deployments be automated through the Azure API? 
 Release pipelines can be exported as json and the data used to identify pipeline changes and validate that manual pipeline implementations are correct until implementation automation is found or Microsoft implements PaC for release pipelines.
