@@ -24,5 +24,16 @@ namespace Juxce.Tuneage.PaC.Test.Unit
 
             Assert.Equal("Me", target);
         }
+
+        /// <summary>
+        /// Canary Test
+        /// </summary>
+        [Fact]
+        public void HelpShouldBeMeToo()
+        {
+            var target = Canary.CanaryHelper.Help();
+
+            Assert.Equal("Me Too", target);
+        }
     }
 }
