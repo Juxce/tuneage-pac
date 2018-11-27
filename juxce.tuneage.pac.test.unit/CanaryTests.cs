@@ -28,7 +28,8 @@ namespace Juxce.Tuneage.PaC.Test.Unit
         /// <summary>
         /// Canary Test
         /// </summary>
-        [Fact]
+        [Fact(Skip = "Pipeline Test")]
+        ////[Fact]
         public void HelpShouldBeMeToo()
         {
             var target = Canary.CanaryHelper.Help();
